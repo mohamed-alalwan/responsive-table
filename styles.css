@@ -16,6 +16,7 @@ body{
 table{
     width: 100%;
     text-align: left;
+    /* overflow: hidden; */
 }
 
 td, th {
@@ -50,27 +51,13 @@ td, th {
 
 .data-heading-row {
     position: relative;
-    width: 100% !important;
 }
 
 .data-heading {
-    width: 100%;
     align-items: center;
     position: sticky;
     left: 0;
-    overflow: hidden;
     padding: 0 !important;
     color: rgb(133, 133, 133);
     font-size: small;
-}
-
-.data-heading::after {
-    margin-left: 5px;
-    margin-top: 10px;
-    position: absolute;
-    display: inline-block;
-    content: '';
-    height:1px;
-    width: 100%;
-    background:rgb(199, 199, 199);
 }
